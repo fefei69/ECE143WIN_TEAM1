@@ -1,17 +1,7 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-from sklearn.preprocessing import StandardScaler, normalize
-
-from sklearn.decomposition import PCA
-
-from sklearn.cluster import KMeans
-
-from sklearn.metrics import silhouette_score
 
 from utils import plot_correlations, convert_dataset, discrete_analysis, importance_analysis
+
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
